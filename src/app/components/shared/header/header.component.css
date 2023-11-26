@@ -1,0 +1,71 @@
+.frame-1000004695 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 127px;
+    gap: 10px;
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0;
+    top: 50px;
+    background: #FFFFFF;
+}
+
+.element-1 {
+    width: 192px;
+    height: 36px;
+}
+
+.element-2 {
+    width: 52px;
+    height: 36px;
+    display: flex;}
+
+.element-1 img, .element-2 img, .element-3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.frame-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    position: absolute;
+    width: 636px;
+    height: 76px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 135px;
+}
+
+.frame-8 h1 {
+    width: 636px;
+    height: 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 0; 
+}
+
+.frame-8 p {
+    width: 575px;
+    height: 17px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #4D5254;
+    margin: 0;
+}

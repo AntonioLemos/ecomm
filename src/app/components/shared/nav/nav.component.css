@@ -1,0 +1,84 @@
+.usps-container {
+    position: absolute;
+    width: 1400px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    background: #252F3D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.vector {
+    background: #FFFFFF;
+}
+
+.element-1, .element-1-text {
+    margin-left: 1px;
+}
+.element-1-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.element-2-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.element-3-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.element-4-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 100%;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.element-2, .element-2-text {
+    margin-left: 20px; 
+}
+
+.element-2-text {
+    text-transform: uppercase;
+}
+
+.element-3, .element-3-text {
+    margin-left: 20px;
+}
+
+.element-3-text {
+    text-transform: capitalize;
+}
+
+.element-4, .element-4-text {
+    margin-left: 20px;
+}
+
+.element-4-text {
+    text-transform: uppercase;
+}
+

@@ -1,0 +1,753 @@
+#frame9 {
+  position: absolute;
+  width: 100%;
+  height: 879px;
+  left: calc(50% - 1245px/2 + 0.5px);
+  top: 275px;
+  background: #FAFAFA;
+  border-radius: 10px;
+}
+
+#image4 {
+  position: absolute;
+  width: 575px;
+  height: 591px;
+  left: 40px;
+  top: 40px;
+  border-radius: 10px;
+}
+
+#frame14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 550px;
+  height: 799px;
+  left: 655px;
+  top: 40px;
+}
+
+#specialPrice {
+  width: 550px;
+  height: 113px;
+  font-size: 32px;
+  line-height: 140%;
+  text-transform: capitalize;
+  position: relative;
+}
+
+#specialPrice .special-phrase {
+  color: #2C7EF8;
+}
+
+#specialPrice .price {
+  color: #000;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  top: 60px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.colored-rectangle {
+  position: relative;
+  width: 134px;
+  height: 134px;
+  background: #2C7EF8;
+  border-radius: 10px;
+}
+
+.image {
+  width: 134px;
+  height: 134px;
+  border-radius: 10px;
+}
+
+#clarifionAirIonizer {
+  margin: 0 auto;
+  width: 173px;
+  height: 14px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+#price180 {
+  width: 37px;
+  height: 12px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #969696;
+}
+
+#price84 {
+  width: 41px;
+  height: 16px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #2C7EF8;
+}
+
+.text-and-frames {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+#frame10 {
+  width: 200px;
+  height: 16px;
+}
+
+#frame11 {
+  width: 200px;
+  height: 16px;
+  display: flex;
+}
+
+#price180 {
+  text-align: end;
+  align-self: end;
+  margin-right: 5px;
+}
+
+.stars-container {
+  display: flex;
+  width: 98px;
+  height: 18px;
+  margin: 12px;
+}
+
+.star {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 16px;
+}
+
+.star img {
+  width: 100%;
+  height: 100%;
+}
+
+.star:nth-child(1) {
+  margin-right: 2px;
+}
+
+.star:nth-child(2) {
+  margin-right: 2px;
+}
+
+.star:nth-child(3) {
+  margin-right: 2px;
+}
+
+.star:nth-child(4) {
+  margin-right: 2px;
+}
+
+.star:nth-child(5) {
+  margin-right: 2px;
+}
+
+.frame-193 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 136px;
+  height: 22px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  top: 200px;
+}
+
+.stock-info {
+  width: 104px;
+  height: 22px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #37465A;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 45px;
+}
+
+.clarifionText {
+  width: 398px;
+  height: 34px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4D5254;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  position: absolute;
+}
+
+#frame1000004599 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 550px;
+  height: 98px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  top: 320px;
+  margin-left: 15px;
+
+}
+
+.tick-circle {
+  width: 22px;
+  height: 22px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tick-circle .vector {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+}
+
+.tick-circle .vector.hidden {
+  opacity: 0;
+}
+
+#frame18,
+#frame23,
+#frame24 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: auto;
+  height: 22px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.selection-text {
+  width: auto;
+  height: 12px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4D5254;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004688 */
+#frame1000004688 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 10px;
+  width: 542px;
+  height: 56px;
+  background: #EDF3FD;
+  border-radius: 10px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  top: 450px;
+}
+
+/* Frame 1000004684 */
+#frame1000004684 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 441px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Group 1000004656 */
+.group1000004656 {
+  width: 32px;
+  height: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* SVG Image */
+.svgImage {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Save 53% and get 6 extra Clarifision for only $14 Each. */
+.saveText {
+  width: 393px;
+  height: 22px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.saveText .especial {
+  color: #2C7EF8;;
+}
+
+/* Frame 1000004690 */
+
+/* Auto layout */
+#frame1000004690 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 64px;
+  gap: 10px;
+  width: 542px;
+  height: 59px;
+  background: #59AE43;
+  border-radius: 50px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  top: 520px;
+}
+
+#frame136 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 19.76px;
+  width: 290.76px;
+  height: 27px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#claimDiscount {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: start;
+}
+
+/* SVG Line */
+.line-svg {
+  width: 16px;
+  height: 27px;
+  fill: #FFFFFF; /* Preencha a cor conforme necessário */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000004691 */
+
+#frame1000004691 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 16px;
+  width: 542px;
+  height: 33px;
+  border: 1px solid #CFCFCF;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  position: absolute;
+  top: 600px;
+}
+
+/* Free shipping */
+
+#freeShipping {
+  width: 76px;
+  height: 17px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #4D5254;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Line 2 */
+
+#line2 {
+  width: 16px;
+  height: 0px;
+  border: 1px solid #CFCFCF;
+  transform: rotate(90deg);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Frame 1000001268 */
+
+#frame1000001268 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 194px;
+  height: 12px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* Lock (7) 1 */
+
+#lockIcon {
+  width: 10px;
+  height: 10px;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Vector */
+
+.vector1,
+.vector2 {
+  position: absolute;
+  border: 1.33333px solid #696969;
+}
+
+.vector1 {
+  left: 9.38%;
+  right: 15.62%;
+  top: 45.83%;
+  bottom: 8.34%;
+}
+
+.vector2 {
+  left: 26.05%;
+  right: 32.28%;
+  top: 8.33%;
+  bottom: 54.17%;
+}
+
+/* Secure 256-bit SSL encryption. */
+
+#secureText {
+  width: 172px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #4D5254;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-align: end;
+}
+
+/* Line 3 */
+
+#frame1000001777 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 0px;
+  width: 180px;
+  height: 14px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.paymentMethods {
+  position: relative;
+}
+
+.paymentMethodIcon {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.svg-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.svg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.07;
+}
+
+.noThanks {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 650px;
+}
+
+.noThanksButton {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #F82C2C;
+  margin-left: 140px;
+}
+
+/* Frame 1484578044 */
+
+/* Auto layout */
+.frame1484578044 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 550px;
+  height: 88px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  position: absolute;
+  top: 690px;
+}
+
+/* Image 6 */
+.image6 {
+  width: 88px;
+  height: 88px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Texto */
+.textoFrame1484578044 {
+  width: 446px;
+  height: 78px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4D5254;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+/* Frame 1484578050 */
+#frame1484578050 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 18px;
+  position: absolute;
+  width: 575px;
+  height: 186px;
+  left: 40px;
+  top: 655px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+/* Frame 1484578045 */
+#frame1484578045 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 13px;
+  width: 237px;
+  height: 48px;
+}
+
+/* Rectangle 1127 */
+#rectangle1127 {
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+}
+
+/* Stars */
+.stars-comment {
+  width: 14px;
+  height: 14px;
+  border-radius: 16px;
+}
+
+.stars-container-comment {
+  display: flex;
+}
+
+/* Frame 1000004527 */
+#frame1000004527 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 176px;
+  height: 16px;
+  left: 61px;
+  top: 50px;
+}
+
+/* Ken T. */
+#kenT {
+  width: 40px;
+  height: 14px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #333333;
+}
+
+/* verify */
+#verify {
+  width: 126px;
+  height: 16px;
+}
+
+/* Verified Customer */
+#verifiedCustomer {
+  position: absolute;
+  width: 100px;
+  height: 14px;
+  left: 76px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #5BB59A;
+}
+
+/* verify 1 */
+#verify1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: 80px;
+}
+
+
+/* Customer Review Text */
+#customerReviewText {
+  width: 527px;
+  height: 72px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #4D5254;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
