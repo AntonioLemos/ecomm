@@ -196,7 +196,6 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 45px;
 }
 
 .clarifionText {
@@ -751,3 +750,10 @@
   flex-grow: 0;
 }
 
+.lockIcon {
+  width: 12px;
+  height: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

@@ -1,6 +1,6 @@
 .usps-container {
     position: absolute;
-    width: 1400px;
+    width: 100%;
     height: 30px;
     left: 0;
     top: 0;
@@ -16,7 +16,8 @@
 }
 
 .element-1, .element-1-text {
-    margin-left: 1px;
+    margin-right: 100px; 
+    margin-left: 5px; 
 }
 .element-1-text {
     font-family: 'Manrope';
@@ -59,7 +60,8 @@
 }
 
 .element-2, .element-2-text {
-    margin-left: 20px; 
+    margin-right: 100px; 
+    margin-left: 5px; 
 }
 
 .element-2-text {
@@ -67,7 +69,8 @@
 }
 
 .element-3, .element-3-text {
-    margin-left: 20px;
+    margin-right: 100px; 
+    margin-left: 5px; 
 }
 
 .element-3-text {
@@ -75,10 +78,19 @@
 }
 
 .element-4, .element-4-text {
-    margin-left: 20px;
+    margin-right: 100px; 
+    margin-left: 5px; 
 }
 
 .element-4-text {
     text-transform: uppercase;
 }
 
+  /* Lock Icon */
+  .lockIcon {
+    width: 12px;
+    height: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }

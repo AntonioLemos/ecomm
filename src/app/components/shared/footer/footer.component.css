@@ -1,7 +1,7 @@
 /* Frame 1000004694 */
 .frame1000004694 {
     position: absolute;
-    width: 1400px;
+    width: 100%;
     height: 88px;
     background: #252F3D;
     align-self: flex-end;
@@ -76,10 +76,8 @@
     align-items: center;
     padding: 0px;
     gap: 16px;
-    position: absolute;
-    width: 261px;
     height: 16px;
-    left: 1120px;
+    margin-right: 25px;
     top: 36px;
   }
   
@@ -114,7 +112,6 @@
   
   /* Secure 256-bit SSL encryption. */
   .sslText {
-    width: 100%;
     height: 12px;
     font-family: 'Manrope';
     font-style: normal;
